@@ -1,0 +1,4 @@
+fiske:
+  reload:
+    successful: "&bFiske &8» &7Reloading config... &8({ms}ms)"
+    unsuccessful: "&bFiske &8» &cDer opstod en fejl: &7{error}"

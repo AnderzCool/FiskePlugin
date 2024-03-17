@@ -2,6 +2,7 @@ package dk.anderz.fiske;
 
 import com.sk89q.worldguard.bukkit.WorldGuardPlugin;
 import com.sk89q.worldguard.protection.regions.ProtectedRegion;
+import dk.anderz.fiske.commands.subs.ReloadSub;
 import dk.anderz.fiske.configuration.Guis;
 import dk.anderz.fiske.configuration.Messages;
 import dk.anderz.fiske.configuration.Rewards;
@@ -53,6 +54,7 @@ public final class Fiske extends JavaPlugin {
         //Managers
         log.sendMessage(ColorUtils.getColored("", "  &2Loading Managers"));
         //Commands
+        getCommand("fiske").setExecutor(new ReloadSub());
         log.sendMessage(ColorUtils.getColored("", "  &2Hooking into Commands"));
 
         //Listeners

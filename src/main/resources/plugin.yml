@@ -2,3 +2,15 @@ name: Fiske
 version: '${version}'
 main: dk.anderz.fiske.Fiske
 authors: [_Anderz_]
+depend:
+  - WorldGuard
+  - WorldEdit
+  - HeadDatabase
+
+commands:
+  fiske:
+    description: Main command for Fiske plugin.
+    usage: /fiske <args>
+    aliases: [fish, fisk]
+    permission: fiske.command
+    permission-message: You don't have permission to use this command.
