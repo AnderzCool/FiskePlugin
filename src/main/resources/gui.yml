@@ -1,0 +1,23 @@
+fiske:
+  tilbage-knap: "&fTilbage."
+  luk-knap: "&fLuk menu."
+  prefix: "&8&l[ &b&lFISKE &f&lSYSTEM &8&l] &7- "
+  mainMenu:
+    name: "&8&l[ &b&lFISKE &f&lSYSTEM &8&l] &7- Menu"
+    lore:
+      - ""
+      - "&8&l▎ &7Klik her for at se"
+      - "&8&l▎ &7indholdet af {rewardType}&7."
+      - ""
+      - "&8&l【 &7Chance: &f{chance} % &8&l】"
+
+flower:
+  menu:
+    name: "&8&l[ &6&lBLOMSTER &8&l]"
+    item:
+      lore:
+        - ""
+        - "&8&l▎ &7Tryk her for at"
+        - "&8&l▎ &7købe en blomster hakke."
+        - ""
+        - "&8&l【 &7Pris: &a$&f{pris} &8&l】"

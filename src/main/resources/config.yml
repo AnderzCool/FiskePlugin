@@ -1,0 +1,45 @@
+
+license: "minternice"
+
+fiske-region:
+  normal: "fiske"
+  by: "fiske-by"
+
+NPC:
+  FishPrizeMenu: "50"
+  FishPrizeMenuByen: "51"
+  BlomsterMenu: "52"
+  BlomsterByenMenu: "53"
+
+Flower:
+  regions:
+    - "vvf"
+  chat-prefix: "&8&l[ &6&lBLOMSTER &8&l]"
+  chance: 1 # 1 = 0.1% (out of 1000)
+  toolName: "Blomster Hakke"
+  toolPrize: 5000
+  gui:
+    name: "&8&l[ &6&lBLOMSTER &8&l]"
+
+Fish:
+  chances:
+    normal:
+      legendary: 0.08
+      epic: 0.4
+      rare: 4.4
+      uncommon: 31.42
+      common: 63.7
+    by:
+      legendary: 0.1
+      epic: 0.5
+      rare: 5.6
+      uncommon: 35.6
+      common: 53.3
+
+mainMenu:
+  common: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBmZDY3OTc4MDE0OTY5YzVmNTE3MmJmMzlkMjQzNDcyODFkNmQ5NWFlNzBmMTliNDlkODRmMWY4ZmVlNjg1In19fQ=="
+  uncommon: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODUyODQ5YjY0NWZjZTg2YWNiZDIzMTk5MWJhOTBkMjBkYTQyZTNhOWE4YjU4ZTc2ZGQ0ZTM4NmRiZThiIn19fQ=="
+  rare: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RiMTc5YWUyYmZkOGRlNjdiZmIyYmMzMDhhMjEzNGJkNzUxOTQyZDM0Mjg3NGY4NmI1NzQ3ZDE2ZWVkNzIifX19"
+  epic: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZiMDdlNzEyNThkYjhmZTI0MWJjNjU5ZTg3NDk0MWNjYjNkMTJjNzVlNDgyZWE5YjUwYTA0OGU2Njc3YTMifX19"
+  legendary: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc4YzFiZDliMzQwZmIzODdjMTNiOGI2ZDdhNzUxYzM4NDY2OTI2MmIyNWM2NGJkMjg1YzQ2MzBlZWY0ZmEifX19"
+

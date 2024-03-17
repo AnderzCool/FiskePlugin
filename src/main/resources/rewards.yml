@@ -1,0 +1,190 @@
+rewards:
+  common:
+    - name: "§fRaw Fish"
+      item-type: RAW_FISH
+      data: 0
+
+    - name: "§fRaw Salmon"
+      item-type: RAW_FISH
+      data: 1
+
+    - name: "§fBread"
+      item-type: BREAD
+
+  uncommon:
+    - name: "§fBread"
+      item-type: BREAD
+      amount: 6
+
+    - name: "§fBook"
+      item-type: BOOK
+
+    - name: "§fPufferfish"
+      item-type: RAW_FISH
+      data: 3
+
+    - name: "§fClownfish"
+      item-type: RAW_FISH
+      data: 2
+
+  rare:
+    - name: "§fString"
+      item-type: STRING
+
+    - name: "§fBlock of Diamond"
+      item-type: DIAMOND_BLOCK
+      amount: 5
+
+    - name: "§fDiamond"
+      item-type: DIAMOND
+      amount: 8
+
+    - name: "§bDiamond Sword"
+      item-type: DIAMOND_SWORD
+      data: 0
+      enchants:
+        1: DAMAGE_ALL 5
+
+    - name: "§bFishing Rod"
+      item-type: FISHING_ROD
+      data: 0
+      enchants:
+        1: LURE 3
+
+  epic:
+    - name: "§9Clownfish"
+      item-type: CUSTOM_SKULL
+      hdb-id: "18285"
+      value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc5ZTQ4ZDgxNGFhM2JjOTg0ZThhNmZkNGZiMTcwYmEwYmI0ODkzZjRiYmViZGU1ZmRmM2Y4Zjg3MWNiMjkyZiJ9fX0="
+
+    - name: "§9Cod Fish"
+      item-type: CUSTOM_SKULL
+      hdb-id: "17898"
+      value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0="
+
+    - name: "§9Fish"
+      item-type: CUSTOM_SKULL
+      hdb-id: "17897"
+      value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3MzFlMGU4YmYwNjI5NjVlODkwNGU5ZWZjMWZkZTMxM2NmODRkNTMxNDg3YzI2Njg2NDk5MGJkY2NkN2I1NCJ9fX0="
+
+    - name: "§9Salmon"
+      item-type: CUSTOM_SKULL
+      hdb-id: "17899"
+      value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc3MGQ5MTdkMWNjYzEyZjNhMWNmNzNmZTdkZThjNjU0OGY0YTg0MjA4NjkyM2M3YmI0NDQ2YmNjN2FhZWJmYSJ9fX0="
+
+    - name: "§9Pufferfish"
+      item-type: CUSTOM_SKULL
+      hdb-id: "17900"
+      value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyMzUwYzlmMDk5M2VkNTRkYjJjNzExMzkzNjMyNTY4M2ZmYzIwMTA0YTliNjIyYWE0NTdkMzdlNzA4ZDkzMSJ9fX0="
+
+  legendary:
+    - name: "§fRed Tulip"
+      item-type: RED_ROSE
+      data: 4
+
+    - name: "§fOrange Tulip"
+      item-type: RED_ROSE
+      data: 5
+
+    - name: "§fWhite Tulip"
+      item-type: RED_ROSE
+      data: 6
+
+    - name: "§fPink Tulip"
+      item-type: RED_ROSE
+      data: 7
+  byen:
+    common:
+      - name: "§fRaw Fish"
+        item-type: RAW_FISH
+        data: 0
+
+      - name: "§fRaw Salmon"
+        item-type: RAW_FISH
+        data: 1
+
+      - name: "§fBread"
+        item-type: BREAD
+
+    uncommon:
+      - name: "§fBread"
+        item-type: BREAD
+        amount: 6
+
+      - name: "§fBook"
+        item-type: BOOK
+
+      - name: "§fPufferfish"
+        item-type: RAW_FISH
+        data: 3
+
+      - name: "§fClownfish"
+        item-type: RAW_FISH
+        data: 2
+
+    rare:
+      - name: "§fString"
+        item-type: STRING
+
+      - name: "§fBlock of Diamond"
+        item-type: DIAMOND_BLOCK
+        amount: 5
+
+      - name: "§fDiamond"
+        item-type: DIAMOND
+        amount: 8
+
+      - name: "§bDiamond Sword"
+        item-type: DIAMOND_SWORD
+        data: 0
+        enchants:
+          1: DAMAGE_ALL 5
+
+      - name: "§bFishing Rod"
+        item-type: FISHING_ROD
+        data: 0
+        enchants:
+          1: LURE 3
+
+    epic:
+      - name: "§9Clownfish"
+        item-type: CUSTOM_SKULL
+        hdb-id: 18285
+        value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc5ZTQ4ZDgxNGFhM2JjOTg0ZThhNmZkNGZiMTcwYmEwYmI0ODkzZjRiYmViZGU1ZmRmM2Y4Zjg3MWNiMjkyZiJ9fX0="
+
+      - name: "§9Cod Fish"
+        item-type: CUSTOM_SKULL
+        hdb-id: 17898
+        value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0="
+
+      - name: "§9Fish"
+        item-type: CUSTOM_SKULL
+        hdb-id: 17897
+        value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3MzFlMGU4YmYwNjI5NjVlODkwNGU5ZWZjMWZkZTMxM2NmODRkNTMxNDg3YzI2Njg2NDk5MGJkY2NkN2I1NCJ9fX0="
+
+      - name: "§9Salmon"
+        item-type: CUSTOM_SKULL
+        hdb-id: 17899
+        value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc3MGQ5MTdkMWNjYzEyZjNhMWNmNzNmZTdkZThjNjU0OGY0YTg0MjA4NjkyM2M3YmI0NDQ2YmNjN2FhZWJmYSJ9fX0="
+
+      - name: "§9Pufferfish"
+        item-type: CUSTOM_SKULL
+        hdb-id: 17900
+        value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyMzUwYzlmMDk5M2VkNTRkYjJjNzExMzkzNjMyNTY4M2ZmYzIwMTA0YTliNjIyYWE0NTdkMzdlNzA4ZDkzMSJ9fX0="
+
+    legendary:
+      - name: "§fRed Tulip"
+        item-type: RED_ROSE
+        data: 4
+
+      - name: "§fOrange Tulip"
+        item-type: RED_ROSE
+        data: 5
+
+      - name: "§fWhite Tulip"
+        item-type: RED_ROSE
+        data: 6
+
+      - name: "§fPink Tulip"
+        item-type: RED_ROSE
+        data: 7

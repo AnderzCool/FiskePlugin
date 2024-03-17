@@ -1,0 +1,4 @@
+name: Fiske
+version: '${version}'
+main: dk.anderz.fiske.Fiske
+authors: [_Anderz_]
