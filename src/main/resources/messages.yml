@@ -2,3 +2,10 @@ fiske:
   reload:
     successful: "&bFiske &8» &7Reloading config... &8({ms}ms)"
     unsuccessful: "&bFiske &8» &cDer opstod en fejl: &7{error}"
+  rewards:
+    epic:
+      - "&8&l[ &b&lFISKE &f&lSYSTEM &8&l]"
+      - "&7Du fik et &5&lEPIC LOOT&7."
+    legendary:
+      - "&8&l[ &b&lFISKE &f&lSYSTEM &8&l]"
+      - "&7Du fik et &6&lLEGENDARY LOOT&7."

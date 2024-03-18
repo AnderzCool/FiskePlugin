@@ -1,5 +1,6 @@
 package dk.anderz.fiske.fish;
 
+import dk.anderz.fiske.configuration.Messages;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
@@ -12,10 +13,10 @@ public class FishReward {
         ItemStack itemStack = createItemStack(reward);
         player.getInventory().addItem(itemStack);
         if (reward.containsValue("CUSTOM_SKULL")) {
-            player.sendMessage("§8§l[ §b§lFISKE §f§lSYSTEM §8§l] \n §7Du fik et §5§lEPIC LOOT§7.");
+            Messages.send(player, "fiske.rewards.epic");
         }
         if (reward.containsValue("RED_ROSE")) {
-            player.sendMessage("§8§l[ §b§lFISKE §f§lSYSTEM §8§l] \n §7Du fik et §6§lLEGENDARY LOOT§7.");
+            Messages.send(player, "fiske.rewards.legendary");
         }
     }
 }
