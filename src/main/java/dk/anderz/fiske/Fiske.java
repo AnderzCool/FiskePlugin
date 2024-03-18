@@ -5,9 +5,7 @@ import com.sk89q.worldguard.protection.regions.ProtectedRegion;
 import dk.anderz.fiske.commands.subs.ReloadSub;
 import dk.anderz.fiske.configuration.Guis;
 import dk.anderz.fiske.configuration.Messages;
-import dk.anderz.fiske.configuration.Rewards;
 import dk.anderz.fiske.listeners.FishingEvent;
-import dk.anderz.fiske.listeners.FlowerEvent;
 import dk.anderz.fiske.listeners.NpcClick;
 import dk.anderz.fiske.utils.ColorUtils;
 import dk.anderz.fiske.utils.Config;
@@ -60,7 +58,6 @@ public final class Fiske extends JavaPlugin {
         //Listeners
         getServer().getPluginManager().registerEvents(new FishingEvent(), this);
         getServer().getPluginManager().registerEvents(new NpcClick(), this);
-        getServer().getPluginManager().registerEvents(new FlowerEvent(), this);
 
         log.sendMessage(ColorUtils.getColored("", "  &2Hooking into Listeners"));
 
