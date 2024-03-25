@@ -9,7 +9,6 @@ depend:
 
 commands:
   fiske:
-    description: Main command for Fiske plugin.
     usage: /fiske <args>
     aliases: [fish, fisk]
     permission: fiske.command
