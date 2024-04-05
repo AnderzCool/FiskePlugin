@@ -2,6 +2,8 @@ package dk.anderz.fiske.commands.subs;
 
 import dk.anderz.fiske.Fiske;
 import dk.anderz.fiske.configuration.Messages;
+import dk.anderz.fiske.guis.Fish.FishMenu;
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -14,16 +16,15 @@ public class ReloadSub implements CommandExecutor, TabCompleter {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (args.length == 0) {
-            if (sender.hasPermission("fiske.command")) {
-                sender.sendMessage("§bFiske v2.0 by _Anderz_ \n §f/fiske reload §8» §7Reloads the configuration.");
-                return true;
-            } else {
-                sender.sendMessage("You don't have permission to use this command.");
-                return false;
-            }
+        if (sender.hasPermission("fiske.use") && !sender.hasPermission("fiske.reload")) {
+            FishMenu.mainMenu((Player) sender);
         }
-
+        if (args.length == 0) {
+            if (sender.hasPermission("fiske.reload")) {
+                sender.sendMessage("§bFiske v2.0 by _Anderz_ \n §f/fiske reload §8» §7Reloads the configuration. \n §f/fiske gui §8» §7Shows rewards.");
+            }
+            return true;
+        }
         if (args[0].equalsIgnoreCase("reload")) {
             if (sender.hasPermission("fiske.reload")) {
                 try {
@@ -34,9 +35,18 @@ public class ReloadSub implements CommandExecutor, TabCompleter {
                     Messages.send(sender, "fiske.reload.unsuccessful", "\\{error\\}", e.toString());
                     e.printStackTrace();
                 }
+            } else {
+                sender.sendMessage("You don't have permission to this command.");
+            }
+            return true;
+        }
+
+        if (args[0].equalsIgnoreCase("gui")) {
+            if (sender.hasPermission("fiske.gui")) {
+                FishMenu.mainMenu((Player) sender);
                 return true;
             } else {
-                sender.sendMessage("You don't have permission to reload the configuration.");
+                sender.sendMessage("You don't have permission to this command.");
                 return false;
             }
         }

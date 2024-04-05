@@ -10,6 +10,8 @@ depend:
 commands:
   fiske:
     usage: /fiske <args>
-    aliases: [fish, fisk]
-    permission: fiske.command
+    aliases:
+      - fish
+      - fisk
+    permission: fiske.use
     permission-message: You don't have permission to use this command.

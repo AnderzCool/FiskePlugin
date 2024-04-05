@@ -42,6 +42,7 @@ public class FishByenMenu {
                     }));
             in++;
         }
+        player.playSound(player.getLocation(), Sound.CLICK, 1, 10);
         gui.open(player);
     }
 }
