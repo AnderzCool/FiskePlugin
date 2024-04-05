@@ -1,6 +1,4 @@
 
-license: "minternice"
-
 fiske-region:
   normal: "fiske"
   by: "fiske-by"
@@ -15,14 +13,14 @@ Fish:
       legendary: 0.08
       epic: 0.4
       rare: 4.4
-      uncommon: 31.42
-      common: 63.7
+      uncommon: 21.42
+      common: 73.7
     by:
       legendary: 0.1
       epic: 0.5
       rare: 5.6
-      uncommon: 35.6
-      common: 53.3
+      uncommon: 25.6
+      common: 63.2
 
 mainMenu:
   common: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBmZDY3OTc4MDE0OTY5YzVmNTE3MmJmMzlkMjQzNDcyODFkNmQ5NWFlNzBmMTliNDlkODRmMWY4ZmVlNjg1In19fQ=="
